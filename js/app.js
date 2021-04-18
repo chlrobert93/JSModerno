@@ -1,9 +1,10 @@
-//Pregunta por el nombre y lo asigna en nombre
-const nombre = prompt('Cual es tu nombre');
-//seleccionar elementos del html
-//document.querySelector('.text-box').innerHTML = `${nombre} está aprendiendo JavaScript Moderno`;
-/*
-Parac comentar multiples lineas
-*/
+console.time('Hola');
 
-//Una sola linea
+console.log('Eso no esta permitido');
+console.log('Eso no esta permitido');
+console.log('Eso no esta permitido');
+console.log('Eso no esta permitido');
+console.log('Eso no esta permitido');
+console.log('Eso no esta permitido');
+
+console.timeEnd('Hola');
