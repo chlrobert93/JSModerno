@@ -1,26 +1,18 @@
-//No permitir malas practicas en este archivo
-"use strict"
-
 const producto = {
-     nombre: "Monitor 30 Pulgadas",
-     precio: 5000,
+     nombre: "Monitor 20 Pulgadas",
+     precio: 300,
      disponible: true,
 }
 
-
-//No se puede eliminar ni agregar propiedades, solo 
-//Se puede modificar
-Object.seal(producto);
-
-producto.disponible = false;
-//producto.image = "image.jpg";
-//delete producto.precio;
-
-console.log(producto);
+const medidas ={
+     peso: '1kg',
+     medidas: '1m'
+}
 
 
-//Saber si un objecto esta sellado
+console.log(producto)
+console.log(medidas)
 
-console.log(Object.isSealed(producto));
+const resultado = Object.assign(producto, medidas);
 
-
+console.log(resultado);
