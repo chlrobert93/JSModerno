@@ -1,5 +1,5 @@
 //No permitir malas practicas en este archivo
-"use stric"
+"use strict"
 
 const producto = {
      nombre: "Monitor 20Pulgadas",
