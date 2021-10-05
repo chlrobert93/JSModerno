@@ -66,3 +66,26 @@ body {
     letter-spacing: 17.4px;
 }
 
+
+/*------------------*/
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+
+  .boton_personalizado:hover{
+    background-color: #27adf0;
+    border: 2px solid #979fda;
+  }
+.toast1{
+    border-radius: 3px;
+}
+  .toast-body1{
+      color:#0016b0
+  }

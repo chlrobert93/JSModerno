@@ -17,3 +17,18 @@ console.log(total);
 //Con un reduce
 let resultado = carrito.reduce((total, producto) => total + producto.precio, 0);
 console.log(resultado)
+
+
+$(document).ready(function(){
+    $("#myBtn1").click(function(){
+      $('.toast1').toast('show');
+    });
+  });
+
+
+  
+$(document).ready(function(){
+    $("#myBtn2").click(function(){
+      $('.toast2').toast('show');
+    });
+  });

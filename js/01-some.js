@@ -15,7 +15,7 @@ carrito.forEach((mes) => {
   console.log(mes.nombre);
   if (mes.nombre == "Tablet") {
     console.log(`Si exite el producto ${mes.nombre}`);
-  }
+  }b
 });
 
 //Solo de arreglo
