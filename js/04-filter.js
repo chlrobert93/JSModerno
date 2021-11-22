@@ -10,7 +10,7 @@ const carrito = [
 
 let resultado;
 
-//Buscar productos
+//Buscar todoss productos
 resultado = carrito.filter(producto => producto.precio > 400);
 resultado = carrito.filter(producto => producto.precio < 600);
 //Trae todos menos Audifonos
